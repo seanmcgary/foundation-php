@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = git@github.com:seanmcgary/foundation-php-core.git
+[submodule "test"]
+	path = test
+	url = git@github.com:seanmcgary/foundation-php-testing.git
