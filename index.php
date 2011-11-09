@@ -19,11 +19,11 @@ $library_path = 'lib';
 //---------------------------------------------------------------------------//
 if(phpversion() < 5.3)
 {
-    define('BASEPATH', dirname(__FILE__).'/lib/');
+    define('BASEPATH', dirname(__FILE__).'/');
 }
 else
 {
-    define('BASEPATH', __DIR__.'/lib/');
+    define('BASEPATH', __DIR__.'/');
 }
 
 require_once('core/bootstrap.php');
