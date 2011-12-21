@@ -32,5 +32,11 @@ class lib_libraries_libMongoDB
 
         return self::$instance;
     }
+
+	public function collection($collection_name)
+	{
+		return $this->mongodb->{$collection_name};
+	}
+
 }
  
